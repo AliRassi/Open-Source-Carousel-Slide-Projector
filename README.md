@@ -32,8 +32,7 @@ Regardless of the number of slides you have or the thickness of each one, or any
 
 The lift lever and the carousel are designed in a way that when the lever pushes the slide up the carousel, the bottom edge of the slide will go above the tray so that it wouldn't get stuck when the carousel advance to the next slide (or reverses to the previous, hence the ramp-to-ramp design.)
 
-![ezgif com-gif-maker (12)](https://user-images.githubusercontent.com/75351660/152681170-da30fe0a-dcb7-45b1-9154-023b14a34599.gif)
-![ezgif com-gif-maker (11)](https://user-images.githubusercontent.com/75351660/152681172-ec33b6dc-4f05-45f8-885d-9fc182eca4de.gif)
+![ezgif com-gif-maker (12)](https://user-images.githubusercontent.com/75351660/152681170-da30fe0a-dcb7-45b1-9154-023b14a34599.gif) ![ezgif com-gif-maker (11)](https://user-images.githubusercontent.com/75351660/152681172-ec33b6dc-4f05-45f8-885d-9fc182eca4de.gif)
 
 The servo motor that controls the lift lever, and the stepper motor that moves the carousel are controlled with an Arduino Uno. The servo is mounted on a plate that could move slightly back and forth to fine-tune the position of the lever head according to the hole at the bottom of the tray. This fit has to be tight for the slides to not get stuck in the gap between the tray and lever, and knowing how inaccurate SG90 servo motors are in dimension and performance, I thought it’s best to provide a mechanism that allows you to position your servo based on your tolerances.
 
